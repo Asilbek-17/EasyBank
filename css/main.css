@@ -144,6 +144,8 @@ body{
 }
 
 .hero {
+  position: relative;
+  overflow: hidden;
   background-image: url("../images/hero-bg-desktop.svg");
   background-position: calc(50% + 600px) calc(50% - 80px);
   background-size: 1371px 956px;
@@ -151,12 +153,11 @@ body{
   background-color: #FAFAFA;
   padding-top: 170px;
   padding-bottom: 170px;
-  position: relative;
 }
 
 .hero__img {
-  position: fixed;
-  top: calc(50% - 430px);
+  position: absolute;
+  top: calc(50% - 450px);
   right: calc(50% - 830px);
 }
 
