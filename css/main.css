@@ -261,6 +261,7 @@ body{
   border-radius: 50%;
 }
 
+
 .why__item:nth-child(4)::before {
   display: block;
   content: "";
